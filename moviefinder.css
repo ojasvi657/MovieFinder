@@ -1,0 +1,85 @@
+bbody {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    background-color: lightblue;
+    font-family: 'Lucida Sans';
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    background-color: darkblue;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.full_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-input {
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 10px 20px; /* Removed space between 10 and px */
+    border: 1px solid grey;
+    margin-right: 20px;
+}
+
+.form-input:focus {
+    background-color: white;
+}
+
+.search {
+    border: none;
+    outline: none;
+    background-color: darkblue;
+    padding: 10px 20px;
+    color: white;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px; /* Adjusted margin as needed */
+}
+
+.movie-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: seagreen;
+    margin: 20px;
+    padding: 30px;
+    width: 700px;
+}
+
+.movie-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    margin: 0 200px; /* Removed px from margin values */
+}
+
+.value {
+    font-size: 15px;
+    width: 200px;
+}
